@@ -1,10 +1,32 @@
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('../fonts/MyriadPro-Regular.eot');
+	src: local('☺'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('fonts/MyriadPro-Regular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+/*---------------------------*/
+
 * {
     margin: 0;
     padding: 0;
 }
 
+/* body {
+    line-height: 1.5;
+} */
+
 input::-ms-clear {
     display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
 /*-----------------------------*/
 
@@ -13,16 +35,88 @@ header {
     width: 100%;
 }
 
-.menu-wrap {
-    position: relative;
+.header-wrap {
     background: #34a853;
-    height: 48px;
+    padding: 10px 0;
 }
 
-.menu-search {
-    position: relative;
+.header-search {
     background: #e7e6e6;
-    height: 64px;
+}
+
+.container {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul:nth-child(2) {
+    padding: 4px 29px 4px 29px;
+    border-right: 1px solid #67be7e;
+    border-left: 1px solid #67be7e;
+    margin: 0 28px 0 29px;
+}
+
+.menu ul {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+}
+
+.menu ul:first-child li:nth-child(2) {
+    margin: 0 47px 0 47px;
+}
+
+.menu ul:nth-child(2) li:nth-child(2) {
+    margin: 0 52px 0 50px;
+}
+
+.menu ul:nth-child(2) li:nth-child(3) {
+    margin-right: 52px;
+}
+
+.menu ul:last-child li:nth-child(1) {
+    margin-right: 51px;
+}
+
+.menu ul:last-child li:nth-child(2) {
+    margin-right: 51px;
+}
+
+.menu ul:last-child li:nth-child(3) {
+     margin-right: 40px;  
+}
+
+.menu ul:last-child li:nth-child(3) a img{
+     padding-right: 3px;
+     margin-bottom: -2px;
+}
+
+.menu ul:last-child li:nth-child(4) a {
+    display: inline-block;
+}
+
+/* .menu ul:last-child  {
+    box-sizing: border-box;
+} */
+
+.menu__words li {
+    margin-right: 0px;
+}
+
+.menu__words li a {
+    font-family: 'MyriadPro', sans-serif;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .temp {
