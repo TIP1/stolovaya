@@ -64,19 +64,19 @@ header {
 }
 
 .menu ul:first-child{
-    width: 25.5%;
+    width: 25.35%;
     padding-right: 1.8%;
 }
 
 .menu ul:nth-child(2) {
-    width: 39.2%;
-    padding: 4px 1.9%;
+    width: 39.4%;
+    padding: 4px 2.2%;
     border-right: 1px solid #67be7e;
     border-left: 1px solid #67be7e;
 }
 
 .menu ul:last-child{
-    width: 35.1%;
+    width: 35.29%;
     padding-left: 1.8%;
 }
 
@@ -125,7 +125,8 @@ header {
     display: flex;
     width: 885px;
     height: 35px;
-    left: 7px;
+    left: 46px;
+    /* 7px */
     top: 14px;
 }
 
@@ -217,7 +218,7 @@ header {
     height: 35px;
     position: relative;
     top: 13px;
-    left: 10px;
+    left: 50px;
 }
 
 .portal p {
@@ -235,6 +236,8 @@ header {
 .header-search-store {
     display: flex;
     width: 11%;
+    position: relative;
+    left: 40px;
 }
 
 .header-search-store .store-right {
