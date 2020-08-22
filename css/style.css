@@ -43,6 +43,7 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 
 .header-wrap {
@@ -377,36 +378,167 @@ header {
     padding-bottom: 17px;
 }
 
-.temp {
-    width: 100%;
-    height: 20000px;
+.main .container {
+    display: flex;
+    justify-content: space-between;
 }
 
-
-/* .main-swiper {
-    display: inline;
+.main-swiper {
+    width: 58.4%;
+    z-index: 0;
 }
 
 .swiper-container {
-    width: 58.4%;   
+    margin: 0 0;
     height: 476px;
   }
 
   .swiper-slide {
-    text-align: center;
     font-size: 18px;
     background: #fff;
-
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  } */
+    
+  }
+
+.swiper-pagination {
+    position: relative !important; 
+    bottom: 47px !important;
+}
+
+.swiper-pagination-bullet {
+    margin: 0 11px 0 0 !important;
+    background: rgba(253, 253, 253, 0) !important; 
+    opacity: 1 !important;
+    border: 1px solid #f7f7f7 !important;
+}
+
+.swiper-pagination-bullet:last-child {
+    margin-right: 0px !important;
+}
+
+.swiper-pagination-bullet-active {
+    border: 0px solid transparent !important;
+    position: relative;
+    bottom: 1px;
+    background: rgb(255, 255, 255) !important; 
+}
+
+html:root {
+    --swiper-theme-color: #ffffff;
+}
+
+.swiper-slide {
+    background: #8b7575;
+}
+
+
+.swiper-slide:first-child {
+    background: #282828;
+}
+
+.swiper-words {
+    width: 426px;
+    margin-left: 68px;
+    margin-top: 57px;
+}
+
+.swiper-img {
+    position: absolute;
+    bottom: 44px;
+    left: 564px;
+}
+
+.swiper-portfolio {
+    font-size: 16px;
+    font-family: 'MyriadPro', sans-serif;
+    font-weight: 300;
+    color: #777777;
+    margin-left: -1px;
+}
+
+.swiper-title {
+    font-size: 40px;
+    font-family: 'MyriadPro', sans-serif;
+    font-weight: 400;
+    color: #f3f1f1;
+    line-height: 1.05;
+    margin-top: 67px;
+}
+
+.swiper-subtitle {
+    font-size: 18px;
+    font-family: 'MyriadPro', sans-serif;
+    font-weight: 300;
+    color: #f3f1f1;
+    margin-bottom: 71px;
+    margin-top: 13px;
+}
+
+.swiper-words a {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'MyriadPro', sans-serif;
+    font-weight: 400;
+    padding: 8px 20px;
+    background: #faad3d;
+    border-radius: 17.5px;
+}
+
+.main-sale {
+    width: 19.13%;
+    border: 2px solid #faad3d;
+    border-radius: 2px;
+    background: #ffffff;
+}
+
+.sale-words {
+    margin-left: 2px;
+    font-family: 'MyriadPro', sans-serif;
+}
+
+.words-first {
+    margin-top: 11px;
+    color: #191919;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.words-second {
+    color: #191919;
+    font-size: 40px;   
+    font-weight: 400;
+}
+
+.words-last {
+    margin-top: 14px;
+    color: #faad3d;
+    font-size: 18px;   
+    font-weight: 300;
+}
+
+.sale-content {
+    margin-left: 26px;
+    margin-top: 217px;
+}
+
+
+
+.partners .container {
+    background: #ffffff;
+}
+
+.partners .container ul {
+    display: flex;
+}
+
+.partners .container ul li a {
+    vertical-align: middle;
+}
+
+.temp {
+    width: 100%;
+    height: 20000px;
+}
