@@ -1221,10 +1221,95 @@ html:root {
 }
 
 .contacts .container {
+    display: flex;
+    justify-content: space-between;
     max-width: 1413px;
+    padding-top: 89px;
+    margin-top: 187px;
+    padding-bottom: 78px;
 }
 
-.temp {
-    width: 100%;
-    height: 20000px;
+.contacts-title {
+    font-size: 24px;
+    color: #777777;
+    font-weight: 300;
+    margin-bottom: 27px;
 }
+
+.contacts-list a, .contacts-info p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.contacts-list li {
+    margin-top: 4px;
+}
+
+.contacts-info .contacts-title {
+    font-size: 24px;
+    color: #777777;
+    font-weight: 300;
+    margin-bottom: 17px;
+}
+
+.contacts-info p:nth-child(5) {
+    margin-top: 19px;
+}
+
+.contacts-info p:nth-child(7) {
+    margin-top: 20px;
+}
+
+.contacts-info p:nth-child(9) {
+    margin-top: 19px;
+}
+
+/* footer */
+
+footer {
+    background: #1f1f1f;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1413px;
+    padding-top: 44px;
+    padding-bottom: 40px;
+}
+
+.companylogo {
+    display: flex;
+}
+
+.companylogo img {
+    position: relative;
+    bottom: 2px;
+}
+
+.companylogo-text {
+    margin-left: 17px;
+}
+
+.companylogo-text p:first-child {
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 26px;
+}
+
+.companylogo-text p:last-child {
+    font-size: 16px;
+    color: #777777;
+    font-weight: 300;
+    line-height: 12px;
+}
+
+.createdby p {
+    position: relative;
+    top: -7px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
