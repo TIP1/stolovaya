@@ -70,6 +70,16 @@
         padding-bottom: 0px;
     }
 
+    .services-slider .swiper-pagination {
+        position: relative;
+        top: -75px;
+    }
+
+    .services-slider .swiper-words {
+        position: relative;
+        top: 95px;
+    }
+
     .news {
         margin-top: 80px;
     }
