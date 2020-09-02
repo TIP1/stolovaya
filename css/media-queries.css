@@ -1,0 +1,147 @@
+/* * {
+    transition: all 0.5s;
+} */
+
+@media (max-width: 1660px) {
+    .container {
+        width: 1400px;
+    }
+
+    .menu__words li a {
+        font-size: 15px;
+    }
+
+    .portal {
+        left: 40px;
+    }
+
+    .portal p {
+        font-size: 12px;
+    }
+
+    .portal img {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        top: 3px;
+    }
+
+    .header-search-store img {
+        width: 25px;
+    }
+
+    .store-sum {
+        font-size: 11px;
+    }
+
+    .header-search-form {
+        left: 23px;
+    }
+
+    .header-search-eq {
+        top: -1px;
+    }
+
+    .header-search-eq .container p {
+        font-size: 14px;
+    }
+
+    .swiper-title {
+        font-size: 35px;
+    }
+
+    .swiper-img img {
+        position: relative;
+        height: 325px;
+        left: -50px;
+        top: -20px;
+    }
+
+    .services-slider .swiper-slide img {
+        max-width: 100%;
+    }
+
+    .services-special {
+        height: 392px;
+    }
+
+    .services-special a {
+        padding-top: 15px;
+        padding-bottom: 0px;
+    }
+
+    .news {
+        margin-top: 80px;
+    }
+
+    .recomend {
+        margin-top: 100px;
+    }
+
+    .offers {
+        margin-top: 140px;
+    }
+
+    .ourclients {
+        margin-top: 60px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .header-search-eq, .header-wrap-second, .header-wrap {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+    
+    .mobile-nav-wrap {
+        display: flex;
+    }
+
+    .mobile-nav-burger {
+        width: 73px;
+        height: 73px;
+        border-radius: 50%;
+        cursor: pointer;
+        background: #fda11c;
+        text-align: center;
+    }
+
+    .mobile-nav-burger img {
+        position: relative;
+        top: 25px;
+    }
+
+    .mobile-nav-logo {
+        display: flex;
+        margin-left: 31px;
+        position: relative;
+        top: 10px;
+    }
+
+    .mobile-nav-logo p:first-child {
+        font-size: 30px;
+        color: #353535;
+    }
+
+    .mobile-nav-logo p:last-child {
+        font-size: 18px;
+        color: #777777;
+        font-weight: 300;
+        line-height: 12px;
+    }
+
+    .mobile-nav-logo img{
+        height: 55px;
+        display: flex;
+    }
+
+    .mobile-nav-words {
+        position: relative;
+        top: 2px;
+        margin-left: 11px;
+    }
+}
