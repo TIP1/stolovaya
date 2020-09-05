@@ -133,6 +133,24 @@ a, span {
     font-size: 16px;
 }
 
+.e-mail-out {
+    background: #5db975;
+}
+
+.e-mail-copy {
+    position: absolute;
+    top: 40px;
+    background: #191919;
+}
+
+.e-mail-copy {
+    display: none;
+}
+
+.e-mail-out .e-mail-copy {
+    display: block;
+}
+
 .header-search {
     display: flex; 
     justify-content: space-between;

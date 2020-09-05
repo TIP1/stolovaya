@@ -42,5 +42,19 @@ function (){
  pict.src = './img/online-shopping-cart.png';
 })
 
-let mail = document.getElementById('e-mail');
-mail.click(function(){console.log(2)})
+let hideEmail = true;
+$('#e-mail').on('click', function(){
+  if(hideEmail) {
+  $('#e-mail').addClass('e-mail-out');
+  hideEmail = !hideEmail
+} else {
+  $('#e-mail').removeClass('e-mail-out');
+  hideEmail = !hideEmail
+  }
+})
+
+function copyEmail() {
+  navigator.clipboard.writeText(document.getElementById('e-mail-addres').innerHTML)
+}
+
+
