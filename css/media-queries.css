@@ -11,6 +11,14 @@
         font-size: 15px;
     }
 
+    .header-wrap {
+        padding: 8px 0;
+    }
+
+    /* .header-wrap ul:nth-child(2){
+        padding: 0 1px 0 1px;
+    } */
+
     .portal {
         left: 40px;
     }
@@ -95,6 +103,22 @@
     .ourclients {
         margin-top: 60px;
     }
+
+}
+
+@media (max-width: 1460px) {
+    .container {
+        width: 88.9%;
+    }
+
+    .menu__words ul {
+        padding:0;
+    }
+
+    .menu__words li a {
+        font-size: 13px;
+    }
+
 
 }
 

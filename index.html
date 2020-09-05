@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -11,9 +12,10 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <header>
-<!-- MOBILE VERSION -->
+        <!-- MOBILE VERSION -->
         <nav class="mobile-nav">
             <div class="mobile-nav-wrap">
                 <div class="mobile-nav-burger">
@@ -23,7 +25,7 @@
                     <img src="./img/mobile-logo.png" alt="logo">
                     <div class="mobile-nav-words">
                         <p>Столовая.РУ</p>
-                        <p>Создание  пищеблоков</p>
+                        <p>Создание пищеблоков</p>
                     </div>
                 </div>
                 <div class="mobile-nav-icons">
@@ -31,13 +33,13 @@
                     <a href="#"><img src="./img/mobile-phone.png" alt="phone"></a>
                     <a href="#">
                         <span class="store-count">12</span>
-                        <img src="./img/online-shopping-cart.png" alt="store">   
+                        <img src="./img/online-shopping-cart.png" alt="store">
                     </a>
                 </div>
             </div>
         </nav>
 
-<!--  -->
+        <!--  -->
         <div class="header-wrap">
             <div class="container">
                 <nav class="menu">
@@ -73,14 +75,14 @@
                         <li>
                             <a href="#">Контакты</a>
                         </li>
-                        <li>                                
-                            <a href="#">   
-                                <div>                               
+                        <li id="e-mail">
+                            <a href="#">
+                                <div>
                                     <div class="img1">
                                         <img src="./img/email.png" alt="email">
                                     </div>
                                     <span>info@stolovay.ru</span>
-                                </div>                                    
+                                </div>
                             </a>
                         </li>
                         <li>
@@ -115,6 +117,27 @@
                                 <img src="./img/arrowdown.png" alt="arrow">
                             </div>
                         </div>
+
+                        <div class="header-search-catigories-list">
+                            <div>
+                                <p>Выберете категорию:</p>
+                                <ul>
+                                    <li><a href="#">Тепловое</a></li>
+                                    <li><a href="#">Холодильное</a></li>
+                                    <li><a href="#">Электромеханическое</a></li>
+                                    <li><a href="#">Посудомоечное</a></li>
+                                    <li><a href="#">Барное</a></li>
+                                    <li><a href="#">Хлебопекарное</a></li>
+                                    <li><a href="#">Линии раздачи</a></li>
+                                    <li><a href="#">Нейтральное</a></li>
+                                    <li><a href="#">Для фаст фуда</a></li>
+                                    <li><a href="#">Для залов</a></li>
+                                    <li><a href="#">Весовое</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+
                         <div class="header-search-input">
                             <input type="text">
                         </div>
@@ -129,7 +152,7 @@
                     <div class="header-search-store">
                         <div class="store-left">
                             <span class="store-count">12</span>
-                            <img src="./img/online-shopping-cart.png" alt="store">                                
+                            <img src="./img/online-shopping-cart.png" id="basket" alt="store">
                         </div>
                         <div class="store-right">
                             <div>
@@ -140,8 +163,8 @@
                             </div>
                         </div>
                     </div>
-                </div>                    
-            </div>                
+                </div>
+            </div>
         </div>
         <div class="header-search-eq">
             <div class="container">
@@ -234,24 +257,24 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            
-                                <div class="swiper-words">                                         
-                                    <p class="swiper-portfolio">Портфолио</p>
-                                    <p class="swiper-title">НИИ скорой помощи 
-                                        им. Н.В. Склифосовского</p>
-                                    <p class="swiper-subtitle">Оборудование для пищеблоков</p>
-                                    <a href="#">Подробнее</a>
-                                </div>
-                                
-                                <div class="swiper-img">
-                                    <img src="./img/оборуд.png" alt="equipment">
-                                </div>
-                            
+
+                            <div class="swiper-words">
+                                <p class="swiper-portfolio">Портфолио</p>
+                                <p class="swiper-title">НИИ скорой помощи
+                                    им. Н.В. Склифосовского</p>
+                                <p class="swiper-subtitle">Оборудование для пищеблоков</p>
+                                <a href="#">Подробнее</a>
+                            </div>
+
+                            <div class="swiper-img">
+                                <img src="./img/оборуд.png" alt="equipment">
+                            </div>
+
                         </div>
                         <div class="swiper-slide">Slide 2</div>
                         <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>            
-                    </div>                
+                        <div class="swiper-slide">Slide 4</div>
+                    </div>
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
@@ -266,7 +289,7 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
     <section class="partners">
         <div class="container">
@@ -336,13 +359,13 @@
                                 <p class="swiper-title">Сервис</p>
                                 <p class="swiper-subtitle">Гарантийный ремонт, монтажи &nbsp;и т.д.</p>
                                 <a href="#">Подробнее &nbsp;></a>
-                            </div>                                                       
-                            <img src="./img/serviceslide.jpg" alt="service">                                                                          
+                            </div>
+                            <img src="./img/serviceslide.jpg" alt="service">
                         </div>
                         <div class="swiper-slide">Slide 2</div>
                         <div class="swiper-slide">Slide 3</div>
-                        <div class="swiper-slide">Slide 4</div>            
-                    </div>                
+                        <div class="swiper-slide">Slide 4</div>
+                    </div>
                     <div class="swiper-pagination"></div>
                 </div>
             </div>
@@ -358,35 +381,36 @@
                     <img src="./img/news-main.png" alt="equipment">
                     <div class="news-metainfo">
                         <p class="news-city">
-                            Abat 
+                            Abat
                         </p>
                         <p class="news-data">
                             22.06.17
                         </p>
                     </div>
-                    <div class="news-main-text">                        
+                    <div class="news-main-text">
                         <p class="main-title">
-                            Новый разборный ротационный пекарский 
+                            Новый разборный ротационный пекарский
                             шкаф РПШ-18-8-6МР
                         </p>
                         <p class="main-text">
-                            Новый разборный ротационный пекарский шкаф РПШ-18-8-6МР:  в комплекте тележка-шпилька ТШГ-18 на 18 
+                            Новый разборный ротационный пекарский шкаф РПШ-18-8-6МР: в комплекте тележка-шпилька ТШГ-18
+                            на 18
                             уровней 600х800 мм вместимость тележки-шпильки - 135 хлебных форм №7
                         </p>
-                        <p class="main-text">    
+                        <p class="main-text">
                             инжекционный тип парообразования
                         </p>
-                        <p class="main-text"> 
-                            разборная конструкция увеличенное стекло двери. 
+                        <p class="main-text">
+                            разборная конструкция увеличенное стекло двери.
                         </p>
                         <p class="main-text">
                             Память на 110 программ (до 4-ех этапов в каждой программе)
                         </p>
                         <p class="main-text">
-                            USB-порт. Таймер до 10 ч 
+                            USB-порт. Таймер до 10 ч
                         </p>
                         <p class="main-text">
-                            Регулировка влажности от 0 до 100%.  5 скоро
+                            Регулировка влажности от 0 до 100%. 5 скоро
                         </p>
                         <a href="#">Все новости</a>
                     </div>
@@ -394,71 +418,71 @@
                 <div class="news-list">
                     <div class="news-list-item">
                         <img src="./img/news-list1.png" alt="equipment">
-                        <div class="news-main-text"> 
+                        <div class="news-main-text">
                             <div class="news-metainfo">
                                 <p class="news-city">
-                                    Abat 
+                                    Abat
                                 </p>
                                 <p class="news-data">
                                     22.06.17
-                                </p>                            
-                            </div>                       
+                                </p>
+                            </div>
                             <p class="main-title">
-                                Повышение энергоэффективности туннельных посудомоечных 
+                                Повышение энергоэффективности туннельных посудомоечных
                                 машин МПТ торговой марки Abat
                             </p>
                             <p class="main-text">
-                                С целью снижения нагрузки на электрическую сеть 
-                                и для повышения энергоэффективности изделий с 1 
-                                июня 2017 года был изменен алгоритм работы 
-                                туннельных посудомоечных машин МПТ торговой 
-                                марки Abat всех моделей... 
+                                С целью снижения нагрузки на электрическую сеть
+                                и для повышения энергоэффективности изделий с 1
+                                июня 2017 года был изменен алгоритм работы
+                                туннельных посудомоечных машин МПТ торговой
+                                марки Abat всех моделей...
                             </p>
                         </div>
                     </div>
                     <div class="news-list-item">
                         <img src="./img/news-list2.png" alt="equipment">
-                        <div class="news-main-text"> 
+                        <div class="news-main-text">
                             <div class="news-metainfo">
                                 <p class="news-city">
-                                    Abat 
+                                    Abat
                                 </p>
                                 <p class="news-data">
                                     22.06.17
-                                </p>                            
-                            </div>                       
+                                </p>
+                            </div>
                             <p class="main-title">
-                                Повышение энергоэффективности туннельных посудомоечных 
+                                Повышение энергоэффективности туннельных посудомоечных
                                 машин МПТ торговой марки Abat
                             </p>
                             <p class="main-text">
-                                С целью снижения нагрузки на электрическую сеть и для 
-                                повышения энергоэффективности изделий с 1 июня 2017 года 
+                                С целью снижения нагрузки на электрическую сеть и для
+                                повышения энергоэффективности изделий с 1 июня 2017 года
                                 был изменен алгоритм работы
                             </p>
                         </div>
                     </div>
                     <div class="news-list-item">
                         <img src="./img/news-list1.png" alt="equipment">
-                        <div class="news-main-text"> 
+                        <div class="news-main-text">
                             <div class="news-metainfo">
                                 <p class="news-city">
-                                    Abat 
+                                    Abat
                                 </p>
                                 <p class="news-data">
                                     22.06.17
-                                </p>                            
-                            </div>                       
+                                </p>
+                            </div>
                             <p class="main-title">
-                                Повышение энергоэффективности туннельных посудомоечных 
+                                Повышение энергоэффективности туннельных посудомоечных
                                 машин МПТ торговой марки Abat
                             </p>
                             <p class="main-text">
-                                С целью снижения нагрузки на электрическую сеть 
-                                и для повышения энергоэффективности изделий с 1 
-                                июня 2017 года был изменен алгоритм работы 
-                                туннельных посудомоечных машин МПТ торговой 
-                                марки Abat всех моделей... 
+                                С целью снижения нагрузки на электрическую сеть
+                                и для повышения энергоэффективности изделий с 1
+                                июня 2017 года был изменен алгоритм работы
+                                туннельных посудомоечных машин МПТ торговой
+                                марки Abat всех моделей...
                             </p>
                         </div>
                     </div>
@@ -472,7 +496,7 @@
                 <p class="recomend-title-main">
                     Рекомендуем
                 </p>
-                <p class="recomend-title-sub"> 
+                <p class="recomend-title-sub">
                     В этих разделах вы можете получить подробную информацию о пищевом оборудовании
                     для столовых, ресторанов и кафе ведущих производителей.
                 </p>
@@ -508,10 +532,10 @@
                                 </p>
                                 <p class="cards-description">
                                     Мощный двигатель переводит высокий крутящий момент
-                                    на режущий инструмент 
+                                    на режущий инструмент
                                 </p>
                             </div>
-                        </div>                        
+                        </div>
                     </a>
                     <a href="#">
                         <div class="cards-firstline-small">
@@ -524,12 +548,12 @@
                                     Нержавеющее
                                 </p>
                                 <p class="cards-description">
-                                    Конструктивные особенности изделий 
+                                    Конструктивные особенности изделий
                                     отличаются высокой прочностью
                                 </p>
                             </div>
-                        </div>                        
-                    </a> 
+                        </div>
+                    </a>
                 </div>
                 <div class="cards-secondline">
                     <div class="cards-secondline-long">
@@ -561,13 +585,13 @@
                                         Abat
                                     </p>
                                     <p class="cards-type">
-                                        Тепловое                                    
+                                        Тепловое
                                         оборудование
                                     </p>
                                     <p class="cards-description">
-                                        Более 55 лет успешно работает на рынке 
-                                        торгово-технологического оборудования, 
-                                        по праву занимая лидирующее положение 
+                                        Более 55 лет успешно работает на рынке
+                                        торгово-технологического оборудования,
+                                        по праву занимая лидирующее положение
                                         в данном сегменте.
                                     </p>
                                 </div>
@@ -583,7 +607,7 @@
                                         Холодильные столы
                                     </p>
                                     <p class="cards-description">
-                                        Многофункциональность оборудования позволяет 
+                                        Многофункциональность оборудования позволяет
                                         оптимизировать пространство на кухне, сделать
                                         работу персонала максимально удобной и эффективной.
                                     </p>
@@ -604,15 +628,15 @@
                 </p>
                 <p class="offers-text">
                     Компания предлагает комплексное оснащение столовых,
-                    ресторанов, кафе и баров в Москве. 
+                    ресторанов, кафе и баров в Москве.
                     Наши услуги построены по принципу полного цикла
                     обслуживания предприятий общепита и бизнеса HoReCa.
                 </p>
                 <p class="offers-text">
-                    Иными словами, мы предлагаем проектирование «под ключ» и постгарантийное 
-                    обслуживание. География работы компании охватывает всю страну. При этом в каждом 
-                    регионе мы готовы предложить демократичные цены на профессиональное 
-                    технологическое оборудование для столовой и оптимальные решения с 
+                    Иными словами, мы предлагаем проектирование «под ключ» и постгарантийное
+                    обслуживание. География работы компании охватывает всю страну. При этом в каждом
+                    регионе мы готовы предложить демократичные цены на профессиональное
+                    технологическое оборудование для столовой и оптимальные решения с
                     точки зрения эффективности бизнеса, приемлемым уровнем производительности
                     в условиях ограниченного бюджета.
                 </p>
@@ -627,15 +651,15 @@
                     составление меню согласно концепции и оснащения бара (кафе, столовой);
                 </p>
                 <p class="offers-text">
-                    подбор посуды, текстиля под общий стиль; профессиональное оборудование 
-                    для кафе, бара и ресторана, большой выбор современных моделей; доставку в 
+                    подбор посуды, текстиля под общий стиль; профессиональное оборудование
+                    для кафе, бара и ресторана, большой выбор современных моделей; доставку в
                     любой регион РФ;
-                </p>     
+                </p>
                 <p class="offers-text">
-                    монтажные и пуско-наладочные работы; автоматизацию производственного 
+                    монтажные и пуско-наладочные работы; автоматизацию производственного
                     процесса, что позволяет определённое оборудование для бара;
-                </p> 
-                <div class="offers-btn">+</div>     
+                </p>
+                <div class="offers-btn">+</div>
             </div>
             <div class="offers-right">
                 <img src="./img/biglogo.png" alt="stolovaya">
@@ -670,108 +694,108 @@
             <p class="ourclients-title">Наши клиенты</p>
             <div class="ourclients-line">
                 <a href="#" class="ourclients-client">
-                    <div>                    
+                    <div>
                         <img src="./img/client1.png" alt="client">
                         <p>
                             Министерство обороны Росийской Федерации
-                        </p>                    
+                        </p>
                     </div>
                 </a>
                 <a href="#" class="ourclients-client">
-                    <div>                    
+                    <div>
                         <img src="./img/client2.png" alt="client">
                         <p>
                             Министерство внтруенних дел Росийской Федерации
-                        </p>                    
+                        </p>
                     </div>
                 </a>
                 <a href="#" class="ourclients-client">
-                    <div>                    
+                    <div>
                         <img src="./img/client3.png" alt="client">
                         <p>
                             Департамент здравоохранени города Москвы
-                        </p>                    
+                        </p>
                     </div>
                 </a>
                 <a href="#" class="ourclients-client">
-                    <div>                    
+                    <div>
                         <img src="./img/client4.png" alt="client">
                         <p>
                             Департамент строительства города Москвы
-                        </p>                    
+                        </p>
                     </div>
                 </a>
                 <a href="#" class="ourclients-client">
-                    <div>                    
+                    <div>
                         <img src="./img/client5.png" alt="client">
                         <p>
                             Главное управление обустройство войск
-                        </p>                    
+                        </p>
                     </div>
                 </a>
                 <a href="#" class="ourclients-client">
-                    <div>                    
+                    <div>
                         <img src="./img/client6.png" alt="client">
                         <p>
                             Воздушно-десантное училище имени Н,Ф,Маргелова
-                        </p>                    
+                        </p>
                     </div>
                 </a>
             </div>
             <div class="ourclients-line2">
                 <a href="#" class="ourclients-client">
-                    <div>                    
+                    <div>
                         <img src="./img/client7.png" alt="client">
                         <p>
                             ЛСР Группа
-                        </p>                    
+                        </p>
                     </div>
                 </a>
                 <a href="#" class="ourclients-client">
-                    <div>                    
+                    <div>
                         <img src="./img/client8.png" alt="client">
                         <p>
                             Росатом
-                        </p>                    
+                        </p>
                     </div>
                 </a>
                 <a href="#" class="ourclients-client">
-                    <div>                    
+                    <div>
                         <img src="./img/client9.png" alt="client">
                         <p>
                             Седьмое небо
-                        </p>                    
+                        </p>
                     </div>
                 </a>
                 <a href="#" class="ourclients-client">
-                    <div>                    
+                    <div>
                         <img src="./img/client10.png" alt="client">
                         <p>
-                            Российские 
-                        </p>   
+                            Российские
+                        </p>
                         <p style="margin-top: 0">
                             железные дороги
-                        </p>                   
+                        </p>
                     </div>
                 </a>
                 <a href="#" class="ourclients-client">
-                    <div>                    
+                    <div>
                         <img src="./img/client11.png" alt="client">
                         <p>
                             НИИ имени
-                        </p>   
+                        </p>
                         <p style="margin-top: 0">
                             Н,В, Склифосовского
-                        </p>                   
+                        </p>
                     </div>
                 </a>
                 <a href="#" class="ourclients-client">
-                    <div>                    
+                    <div>
                         <img src="./img/client12.png" alt="client">
                         <p>
                             Государственный институт
                             русского языка им А,С, Пушкина
-                        </p>                    
+                        </p>
                     </div>
                 </a>
             </div>
@@ -780,32 +804,32 @@
                     <div>
                         <img src="./img/client13.png" alt="client">
                     </div>
-                </a>    
+                </a>
                 <a href="#" class="ourclients-client">
                     <div>
                         <img src="./img/client14.png" alt="client">
                     </div>
-                </a>   
+                </a>
                 <a href="#" class="ourclients-client">
                     <div>
                         <img src="./img/client15.png" alt="client">
                     </div>
-                </a>   
+                </a>
                 <a href="#" class="ourclients-client">
                     <div>
                         <img src="./img/client16.png" alt="client">
                     </div>
-                </a>   
+                </a>
                 <a href="#" class="ourclients-client">
                     <div>
                         <img src="./img/client17.png" alt="client">
                     </div>
-                </a>     
+                </a>
                 <a href="#" class="ourclients-client">
                     <div>
                         <img src="./img/client18.png" alt="client">
                     </div>
-                </a>     
+                </a>
             </div>
         </div>
     </section>
@@ -883,6 +907,8 @@
             </div>
         </div>
     </footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>

@@ -5,16 +5,42 @@ var swiper = new Swiper('.swiper-container', {
 });
 
 
-var header_nav = document.querySelector('.header-search-eq');
-console.log(header_nav.style.top);
 
-var lastScrollTop = 0;
-$(window).scroll(function(event){
-var st = $(this).scrollTop();
-if (st > lastScrollTop){
-   console.log(1)
-} else {
-   console.log(2)
-}
-lastScrollTop = st;
+var header = $('.header-search-eq');
+		scrollPrev = 0;
+
+$(window).scroll(function() {
+	var scrolled = $(window).scrollTop();
+ 
+	if ( scrolled > 1 && scrolled > scrollPrev ) {
+		header.addClass('out');
+	} else {
+		header.removeClass('out');
+	}
+	scrollPrev = scrolled;
 });
+
+var catigories = $('.header-search-catigories-list');
+let visibility = false;
+$('.header-search-catigories').click(function() {
+  if (!visibility) {
+   	catigories.addClass('out');
+	} else {
+		catigories.removeClass('out');
+  }
+  visibility = !visibility;
+})
+
+var basket = $('.header-search-store');
+basket.hover(
+function (){
+ let pict = document.getElementById('basket');
+ pict.src = './img/online-shopping-cart-white.png';
+},
+function (){
+ let pict = document.getElementById('basket');
+ pict.src = './img/online-shopping-cart.png';
+})
+
+let mail = document.getElementById('e-mail');
+mail.click(function(){console.log(2)})
