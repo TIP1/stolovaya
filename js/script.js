@@ -53,6 +53,17 @@ $('#e-mail').on('click', function(){
   }
 })
 
+jQuery(function($){
+	$(document).mouseup(function (e){ 
+		var div = $("#e-mail"); 
+		if (!div.is(e.target) 
+		    && div.has(e.target).length === 0) { 
+          $('#e-mail').removeClass('e-mail-out');
+          hideEmail = !hideEmail 
+		}
+	});
+});
+
 function copyEmail() {
   navigator.clipboard.writeText(document.getElementById('e-mail-addres').innerHTML)
 }

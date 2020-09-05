@@ -199,6 +199,34 @@ a, span {
 
 .header-search-catigories-list.out {
     display: block;
+    position: absolute;
+    left: 1px;
+    top: 36px;
+    background: #f1f1f1;
+    border: 1px solid #e7e6e6;
+    padding: 0 35px 30px 14px;
+}
+
+.header-search-catigories-list.out p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #777777;
+    margin-top: 14px;
+    margin-bottom: 29px;
+}
+
+.header-search-catigories-list.out li a {
+    font-weight: 300;
+    font-size: 16px;
+    color: #373737;
+}
+
+.header-search-catigories-list.out li {
+    margin-bottom: 4px;
+}
+
+.header-search-catigories-list.out li a:focus{
+    color: #34a853;
 }
 
 .header-search-select {
@@ -223,6 +251,7 @@ a, span {
     padding-left: 5px;
     height: 6px;
     width: 12px;
+    user-select: none;
 }
 
 .header-search-input {
