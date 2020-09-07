@@ -405,6 +405,7 @@ a, span {
 .equipment-long-wrap {
     display: flex;
     position: absolute;
+    z-index: -2;
     top:-1;
 }
 
@@ -413,7 +414,6 @@ a, span {
     display: none;    
     background: #fff;
     padding-top: 29px;
-    z-index: -2;
     padding-bottom: 104px;
     border-right: 1px solid #e9e7e7;
 }
