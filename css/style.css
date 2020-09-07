@@ -402,14 +402,20 @@ a, span {
     transform: translateY(-100%);
 }
 
-.equipment-long-menu {
-    display: none;
-    top: 213px;
-    background: #fff;
+.equipment-long-wrap {
+    display: flex;
     position: absolute;
-    padding-top: 28px;
+    top:-1;
+}
+
+.equipment-long-menu {
+    position: relative;
+    display: none;    
+    background: #fff;
+    padding-top: 29px;
     z-index: -2;
     padding-bottom: 104px;
+    border-right: 1px solid #e9e7e7;
 }
 
 .equipment-long-menu li {
@@ -446,6 +452,57 @@ a, span {
 
 .equipment-long-menu li:hover:after {
     color: #abd89c;
+}
+
+.equipment-long-menu-second {
+    background: #f3f1f1;
+}
+
+.equipment-long-menu-second ul:first-child li {
+    font-size: 18px;
+    font-weight: 300;
+    color: #191919;
+}
+
+.equipment-long-menu-second ul:last-child {
+    margin-left: 28px;
+}
+
+.equipment-long-menu-second ul:last-child p {
+    margin-left: 1px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #777777;
+}
+
+.equipment-long-menu-second ul:last-child li {
+    font-size: 18px;
+    font-weight: 300;
+    color: #333333;
+    margin-top: 8px;
+}
+
+.equipment-long-menu-second ul:last-child li:before {
+    content: '';
+    margin-right: 6px;
+    width: 22px;
+    height: 22px;
+    display: block;
+    float: left;
+    position: relative;
+    background: url('../img/Spain.png') 0 1px no-repeat;
+}
+
+.equipment-long-menu-second ul:last-child li:nth-child(3):before {
+    background: url('../img/Switzerland.png') 0 1px no-repeat;
+}
+
+.equipment-long-menu-second ul:last-child li:nth-child(4):before {
+    background: url('../img/Germany.png') 0 1px no-repeat;
+}
+
+.equipment-long-menu-second ul:last-child li:nth-child(5):before {
+    background: url('../img/Turkey.png') 0 1px no-repeat;
 }
 
 /* main section */
