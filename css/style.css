@@ -139,16 +139,12 @@ a, span {
 
 .e-mail-copy {
     position: absolute;
+    display: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
     top: 40px;
     background: #191919;
-}
-
-.e-mail-copy {
-    display: none;
-}
-
-.e-mail-out .e-mail-copy {
-    display: block;
 }
 
 .header-search {

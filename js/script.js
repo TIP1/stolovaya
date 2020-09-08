@@ -141,12 +141,22 @@ function (){
 })
 
 let hideEmail = true;
+// $('#e-mail').on('click', function(){
+//   if(hideEmail) {
+//   $('#e-mail').addClass('e-mail-out');
+//   hideEmail = !hideEmail
+// } else {
+//   $('#e-mail').removeClass('e-mail-out');
+//   hideEmail = !hideEmail
+//   }
+// })
+
 $('#e-mail').on('click', function(){
   if(hideEmail) {
-  $('#e-mail').addClass('e-mail-out');
+  $('.e-mail-copy').fadeIn(200);
   hideEmail = !hideEmail
 } else {
-  $('#e-mail').removeClass('e-mail-out');
+  $('.e-mail-copy').fadeOut(200);
   hideEmail = !hideEmail
   }
 })
@@ -156,7 +166,8 @@ jQuery(function($){
 		var div = $("#e-mail"); 
 		if (!div.is(e.target) 
 		    && div.has(e.target).length === 0) { 
-          $('#e-mail').removeClass('e-mail-out');
+         // $('#e-mail').removeClass('e-mail-out');
+          $('.e-mail-copy').fadeOut(200)
           hideEmail = !hideEmail 
 		}
 	});
