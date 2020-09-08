@@ -145,6 +145,9 @@ a, span {
     color: #ffffff;
     top: 40px;
     background: #191919;
+    z-index: 20;
+    border-radius: 22.5px;
+    padding: 16px 37px;
 }
 
 .header-search {
