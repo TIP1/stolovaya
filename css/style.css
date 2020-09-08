@@ -368,8 +368,6 @@ a, span {
     color: #1d1d1d;
 }
 
-
-
 .header-search-eq .container{    
     display: flex;
     justify-content: space-between;
@@ -582,6 +580,28 @@ a, span {
 .equipment-long-menu-last img {
     margin-top: 34px;
     margin-bottom: 22px;
+}
+
+.equipment-other-wrap {
+    display: flex;
+    height: 100%;
+}
+
+#hidemenu {
+    display: none;
+}
+
+.shadowBackground {
+    display: none;
+	content: '';
+	background: rgba(0, 0, 0, 0.507);
+	position: fixed; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+    z-index: -3;
+    /* transition: 3s; */
 }
 
 /* main section */
