@@ -456,6 +456,7 @@ a, span {
 
 .equipment-long-menu-second {
     background: #f3f1f1;
+    border-right: 1px solid #e9e7e7;
 }
 
 .equipment-long-menu-second ul:first-child li {
@@ -466,6 +467,7 @@ a, span {
 
 .equipment-long-menu-second ul:last-child {
     margin-left: 28px;
+    margin-top: 33px;
 }
 
 .equipment-long-menu-second ul:last-child p {
@@ -503,6 +505,83 @@ a, span {
 
 .equipment-long-menu-second ul:last-child li:nth-child(5):before {
     background: url('../img/Turkey.png') 0 1px no-repeat;
+}
+
+.equipment-long-menu-second ul:first-child {
+    border-bottom: 1px solid #e9e7e7;
+    padding-left: 29px;
+    margin-top: 38px;
+    padding-bottom: 34px;
+    padding-right: 62px;
+}
+
+.equipment-long-menu-second ul:first-child li {
+    margin-top: 8px;
+}
+
+
+.equipment-long-menu-second ul li:hover {
+    cursor: pointer;
+    color: #faad3d;
+    transition: color .2s linear;
+ }
+
+.equipment-long-menu-third {
+    background: #f3f1f1;
+}
+
+.equipment-long-menu-third ul {
+    margin-left: 27px;
+    padding-right: 117px;
+}
+
+.equipment-long-menu-third p {
+    margin-top: 38px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #777777;
+    margin-bottom: 1px;
+    margin-left: 27px;
+}
+
+.equipment-long-menu-third li {
+    font-size: 24px;
+    font-weight: 300;
+    color: #333333;
+    margin-top: 2px;
+}
+
+.equipment-long-menu-third li:hover {
+    cursor: pointer;
+    color: #faad3d;
+    transition: color .2s linear;
+}
+
+.equipment-long-menu-last {
+    background: #faad3d;
+    text-align: center;
+    padding: 0 65px;
+}
+
+.equipment-long-menu-last p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 22px;
+}
+
+.equipment-long-menu-last a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #191919;
+    padding: 9px 27px 7px 25px;
+    border-radius: 5px;
+}
+
+.equipment-long-menu-last img {
+    margin-top: 34px;
+    margin-bottom: 22px;
 }
 
 /* main section */
