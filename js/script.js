@@ -153,11 +153,13 @@ let hideEmail = true;
 
 $('#e-mail').on('click', function(){
   if(hideEmail) {
-  $('.e-mail-copy').fadeIn(200);
-  hideEmail = !hideEmail
+    $('#e-mail').css('background','#5cb774')
+    $('.e-mail-copy').fadeIn(200);
+    hideEmail = !hideEmail
 } else {
-  $('.e-mail-copy').fadeOut(200);
-  hideEmail = !hideEmail
+    $('#e-mail').css('background','#34a853')
+    $('.e-mail-copy').fadeOut(200);
+    hideEmail = !hideEmail
   }
 })
 
@@ -168,6 +170,7 @@ jQuery(function($){
 		    && div.has(e.target).length === 0) { 
          // $('#e-mail').removeClass('e-mail-out');
           $('.e-mail-copy').fadeOut(200)
+          $('#e-mail').css('background','#34a853')
           hideEmail = !hideEmail 
 		}
 	});

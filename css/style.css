@@ -66,7 +66,7 @@ a, span {
 
 .header-wrap {
     background: #34a853;
-    padding: 10px 0;
+    /* padding: 10px 0; */
 }
 
 .header-wrap-second {
@@ -90,14 +90,23 @@ a, span {
 
 .menu ul:nth-child(2) {
     width: 39.4%;
-    padding: 4px 2.2%;
-    border-right: 1px solid #67be7e;
-    border-left: 1px solid #67be7e;
+    /* padding: 0px 2.2%; */
+    /* border-right: 1px solid #67be7e;
+    border-left: 1px solid #67be7e; */
+}
+
+.menu ul:nth-child(2):before, .menu ul:nth-child(2):after {
+    content: '';
+    margin-top: 10px;
+    width: 1px;
+    height: 28px;
+    background: #67be7e;
 }
 
 .menu ul:last-child{
     width: 35.29%;
     padding-left: 1.8%;
+    /* line-height: 48px; */
 }
 
 .menu ul:last-child li div{
@@ -107,7 +116,8 @@ a, span {
 .menu ul:last-child li .img1 img{
     height: 15px;
     width: 20px;
-    margin-right: 7px;
+    margin-right: 6.5px;
+    margin-top: 15px;
 }
 
 .menu ul:last-child li .img2 img{
@@ -115,39 +125,51 @@ a, span {
     height: 20px;
     top: -3px;
     margin-right: 3px;
+    margin-top: 15px;
 }
 
 .menu ul {
     display: flex;
     justify-content: space-between;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    /* padding-top: 4px;
+    padding-bottom: 4px; */
+    line-height: 48px;
+    /* padding-top: 1px; */
+}
+
+.menu ul li a{
+    position: relative;
+    top: 2px;
+    color: #ffffff;
+    font-size: 16px;
 }
 
 .menu__words li {
     margin-right: 0px;
-}
-
-.menu__words li a {
-    color: #ffffff;
-    font-size: 16px;
+    transition: background 200ms;
 }
 
 .e-mail-out {
     background: #5db975;
 }
 
+#e-mail {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
 .e-mail-copy {
-    position: absolute;
+    position: absolute !important;
     display: none;
-    font-size: 16px;
     font-weight: 400;
-    color: #ffffff;
-    top: 40px;
+    top: 50px !important;
+    margin-right: 14px;
     background: #191919;
     z-index: 20;
     border-radius: 22.5px;
     padding: 16px 37px;
+    line-height: 16px;
+    right: 330px;
 }
 
 .header-search {
