@@ -608,6 +608,177 @@ a, span {
     height: 100%;
 }
 
+.equipment-short-menu {
+    position: relative;
+    display: block;    
+    background: #fff;
+    padding-top: 29px;
+    padding-bottom: 24px;
+    border-right: 1px solid #e9e7e7;
+}
+
+.equipment-short-menu li {
+    cursor: pointer;
+    padding-left: 90px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333333;
+    border-bottom: 1px solid #e9e7e7;
+    padding-top: 9px;
+    padding-bottom: 8px;
+}
+
+.equipment-short-menu li:last-child {
+    border-bottom: none;
+} 
+
+.equipment-short-menu li:after {
+    content: '>';
+    color: #cecece;
+    display: inline-block;
+    float: right;
+    padding-left: 86px;
+    padding-right: 17px;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+}
+
+.equipment-short-menu li:hover {
+    color: #faad3d;
+    transition: color 100ms;
+}
+
+.equipment-short-menu li:hover:after {
+    color: #abd89c;
+}
+
+.equipment-short-menu-second {
+    background: #f3f1f1;
+}
+
+.equipment-short-menu-second ul {
+    border-bottom: 1px solid #e9e7e7;
+    padding-left: 30px;
+    padding-right: 183px;
+}
+
+.equipment-long-wrap ul li {
+    cursor: pointer;
+    user-select: none;
+}
+
+.equipment-short-menu-second ul li:hover{
+    color: #faad3d;
+    transition: color 100ms;
+}
+
+.equipment-short-menu-second ul:last-child {
+    border: none;
+}
+
+.equipment-short-menu-second ul p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #777777;
+}
+
+.equipment-short-menu-second .equipment-short-type {
+    margin-top: 38px;
+    padding-bottom: 10px;
+}
+
+.equipment-short-menu-second .equipment-short-brand {
+    margin-top: 19px;
+    padding-bottom: 15px;
+}
+
+.equipment-short-menu-second .equipment-short-countries {
+    margin-top: 19px;
+}
+
+.equipment-short-countries p {
+    margin-bottom: 8px;
+}
+
+.equipment-short-countries li {
+    margin-bottom: 8px;
+}
+
+.equipment-short-menu-second .equipment-short-type li {
+    font-size: 18px;
+    font-weight: 300;
+    color: #191919;
+    margin-bottom: 8px;
+}
+
+.equipment-short-menu-second .equipment-short-brand li {
+    font-size: 24px;
+    font-weight: 300;
+    color: #333333;
+    margin-bottom: 2px;
+}
+
+.equipment-short-brand p {
+    margin-bottom: 3px;
+}
+
+.equipment-short-menu-second .equipment-short-countries li {
+    font-size: 18px;
+    font-weight: 300;
+    color: #333333;
+}
+
+.equipment-short-menu-second ul:last-child li:before {
+    content: '';
+    margin-right: 6px;
+    width: 22px;
+    height: 22px;
+    display: block;
+    float: left;
+    position: relative;
+    background: url('../img/Spain.png') no-repeat;
+}
+
+.equipment-short-menu-second ul:last-child li:nth-child(3):before {
+    background: url('../img/Switzerland.png') no-repeat;
+}
+
+.equipment-short-menu-second ul:last-child li:nth-child(4):before {
+    background: url('../img/Germany.png') no-repeat;
+}
+
+.equipment-short-menu-second ul:last-child li:nth-child(5):before {
+    background: url('../img/Turkey.png') no-repeat;
+}
+
+.equipment-short-menu-last {
+    background: #34a853;
+    text-align: center;
+    padding: 0 67px;
+}
+
+.equipment-short-menu-last p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 22px;
+}
+
+.equipment-short-menu-last a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    background: #faad3d;
+    padding: 9px 27px 7px 25px;
+    border-radius: 5px;
+}
+
+.equipment-short-menu-last img {
+    margin-top: 56px;
+    margin-bottom: 34px;
+}
+
 #hidemenu {
     display: none;
 }
