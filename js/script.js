@@ -46,23 +46,50 @@ $('#post-link').click(function(e){
 })
 let letMeHide = true;
 let longmenushow = false;
+let shortmenushow = false;
 var firstEquipment = $('.equipment-long-menu');
+var secondEquipment = $('.equipment-short-menu');
 var firstEquipmentVisual = false;
-var firstmenu = $('#hidemenu');
+var secondEquipmentVisual = false;
+var otherMenu = $('.hidemenu');
+var otherMenuSecond = $('.hidemenu_second');
 var darknestBlock = $('.shadowBackground')
 $('#first-equipment-link').click(function(){
   if (!firstEquipmentVisual) {
-    firstEquipment.fadeIn(200)
-    darknestBlock.fadeIn(400)
-    letMeHide = false
+    firstEquipment.fadeIn(200);
+    darknestBlock.fadeIn(400);
+    letMeHide = false;
+    shortmenushow = false;
+    otherMenuSecond.fadeOut(200);
+    secondEquipment.fadeOut(200);
+    secondEquipmentVisual = false;
 	} else {
-    longmenushow = false
-    firstmenu.fadeOut(200)
-    firstEquipment.fadeOut(200)
-    darknestBlock.fadeOut(400)
-    letMeHide = true
+    longmenushow = false;
+    otherMenu.fadeOut(200);
+    firstEquipment.fadeOut(200);
+    darknestBlock.fadeOut(400);
+    letMeHide = true;
   }
   firstEquipmentVisual = !firstEquipmentVisual;
+})
+
+$('#second-equipment-link').click(function(){
+  if (!secondEquipmentVisual) {
+    otherMenu.fadeOut(200);
+    firstEquipment.fadeOut(200);
+    longmenushow = false;
+    firstEquipmentVisual = false;
+    secondEquipment.fadeIn(200);
+    darknestBlock.fadeIn(400);
+    letMeHide = false;
+	} else {
+    shortmenushow = false;
+    otherMenuSecond.fadeOut(200);
+    secondEquipment.fadeOut(200);
+    darknestBlock.fadeOut(400);
+    letMeHide = true;
+  }
+  secondEquipmentVisual = !secondEquipmentVisual;
 })
 
 var header = $('.header-search-eq');
@@ -94,20 +121,33 @@ $('.header-search-catigories').click(function() {
 
 $('#LongMenu').click(function() {
   if (!longmenushow) {
-    firstmenu.fadeIn(400)
+    otherMenu.fadeIn(400)
 	} else {
-    firstmenu.fadeOut(400)
+    otherMenu.fadeOut(400)
   }
   longmenushow = !longmenushow;
 })
 
+$('#SecondMenu').click(function() {
+  if(!shortmenushow) {
+    otherMenuSecond.fadeIn(400)
+  } else {
+    otherMenuSecond.fadeOut(400)
+  }
+  shortmenushow = !shortmenushow;
+})
+
 darknestBlock.click(function(){
-    firstEquipmentVisual = !firstEquipmentVisual;
-    longmenushow = false
-    firstmenu.fadeOut(200)
-    firstEquipment.fadeOut(200)
-    darknestBlock.fadeOut(400)
-    letMeHide = true
+    firstEquipmentVisual = false;
+    secondEquipmentVisual = false;
+    longmenushow = false;
+    shortmenushow = false;
+    otherMenuSecond.fadeOut(200)
+    secondEquipment.fadeOut(200)
+    otherMenu.fadeOut(200);
+    firstEquipment.fadeOut(200);
+    darknestBlock.fadeOut(400);
+    letMeHide = true;
 })
 
 $(document).scroll(function(){

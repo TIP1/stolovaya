@@ -610,7 +610,7 @@ a, span {
 
 .equipment-short-menu {
     position: relative;
-    display: block;    
+    display: none;    
     background: #fff;
     padding-top: 29px;
     padding-bottom: 24px;
@@ -779,7 +779,11 @@ a, span {
     margin-bottom: 34px;
 }
 
-#hidemenu {
+.hidemenu {
+    display: none;
+}
+
+.hidemenu_second {
     display: none;
 }
 
