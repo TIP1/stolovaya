@@ -172,6 +172,190 @@ a, span {
     right: 330px;
 }
 
+.words-tel-popup {
+    display: flex;
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    background: #ffffff;
+    z-index: 20;
+}
+
+.words-tel-popup .popup-left-number {
+    color: #34a853;
+    font-size: 24px;
+    line-height: 25px;
+    position: relative;
+    top: 4px;
+}
+
+.popup-closebtn {
+    height: 27px;
+}
+
+.popup-closebtn:after {
+    content: '';
+    margin-top: 16px;
+    margin-right: 9px;
+    width: 27px;
+    height: 27px;
+    display: block;
+    float: right;
+    position: relative;
+    background: url('../img/Х.png') 3px 1px no-repeat;
+}
+
+.popup-wrap {
+    padding: 0px 0 55px 51px;
+}
+
+.popup-blocks-wrap {
+    padding-top: 13px;
+    padding-right: 61px;
+    clear: right;
+    display: flex;
+}
+
+.popup-subtext {
+    color: #777777;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 11px;
+}
+
+.popup-left ul {
+    padding: 0 !important;
+    display: inline;   
+}
+
+.popup-left ul p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.popup-left ul li {
+    cursor: pointer;
+    user-select: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300;
+    height: 40px;
+    text-decoration-color: #b8b8b800;
+    transition: all .2s linear;
+}
+
+.popup-left ul li:hover {
+    text-decoration: underline;
+    text-decoration-color: #b8b8b8;
+}
+
+.popup-left ul li:before {
+    content: '';
+    margin-right: 7px;
+    position: relative;
+    top: 10px;
+    width: 27px;
+    height: 27px;
+    display: block;
+    float: left;
+    position: relative;
+    background: url('../img/phoneconnect.png') 3px 1px no-repeat;
+}
+
+.popup-left ul li:nth-child(3):before {
+    background: url('../img/вайбер.png') 0 1px no-repeat;
+}
+
+.popup-left ul li:nth-child(4):before {
+    background: url('../img/телеграм.png') 0 1px no-repeat;
+    top: 9px;
+}
+
+.popup-left ul li:nth-child(5):before {
+    background: url('../img/вотсап.png') 0 1px no-repeat;
+    top: 8px;
+}
+
+.popup-rigth {
+    min-width: 260px;
+}
+
+.popup-left {
+    min-width: 271px;
+    margin-right: 113px;
+}
+
+.popup-rigth-title {
+    color: #000000;
+    font-size: 24px; 
+    position: relative;
+    top: -7px;
+}
+
+.popup-rigth .popup-subtext {
+    position: relative;
+    top: -22px;
+}
+
+.popup-rigth form p {
+    position: relative;
+    color: #000000;
+    font-size: 16px; 
+    font-weight: 300;
+    line-height: 11px;
+}
+
+.popup-name-p {
+    top: -11px;
+}
+
+.popup-telephone-p {
+    margin-top: 2px;
+    top: -10px;
+}
+
+.popup-rigth form input {
+    font-size: 18px;
+    margin-bottom: 2px;
+    border: none;
+    border-bottom: 1px solid #c4c4c4;
+    outline:none;
+    transition: border .2s linear;
+    position: relative;
+    top: -16px; 
+    width: 100%;
+}
+
+/* .popup-rigth form input:first-child {
+    top: -10px; 
+} */
+
+.popup-rigth form input:focus {
+    border-bottom: 1px solid #ea9b28;
+}
+
+.popup-rigth form button {
+    position: relative;
+    top: -6px;
+    display: block;
+    background: #faad3d;
+    border: none;
+    border-radius: 22.5px;
+    height: 45px;
+    width: 133px;
+    color: #ffffff;
+    font-size: 18px;
+    outline: none;
+    transition: background .2s linear;
+}
+
+.popup-rigth form button:hover {
+    background: #db9937;
+}
+
 .header-search {
     display: flex; 
     justify-content: space-between;
