@@ -196,9 +196,10 @@ a, span {
 
 .popup-closebtn {
     height: 27px;
-}
+} 
 
-.popup-closebtn:after {
+.popup-closebtn div:after {
+    cursor: pointer;
     content: '';
     margin-top: 16px;
     margin-right: 9px;
@@ -208,6 +209,7 @@ a, span {
     float: right;
     position: relative;
     background: url('../img/Х.png') 3px 1px no-repeat;
+    clear: both;
 }
 
 .popup-wrap {
@@ -482,8 +484,9 @@ a, span {
     width: 100%;
     padding-left: 10px;
     color: #777777;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 0.8;
+    color: #000000;
 }
 
 .header-search-btn {
@@ -497,6 +500,48 @@ a, span {
     margin: 0 14px;
     margin-top: 7px;
     margin-bottom: 5px;
+}
+
+.header-search-resultPopup {
+    display: none;
+    top: 36px;
+    right: 49px;
+    position: absolute;
+    background: #ffffff;
+    border: 1px solid #e7e6e6;
+    padding: 10px 28px 12px 28px;
+    width: 712px;
+}
+
+.header-search-resultPopup li {
+    cursor: pointer;
+    border-bottom: 1px solid #d4cdcd;
+    padding-bottom: 10px;
+    padding-top: 13px;
+    width: 100%;
+}
+
+.header-search-resultPopup li:hover {
+    background: #e6e4e491;
+    transition: background .1s linear;
+}
+
+.header-search-resultPopup li:last-child {
+    border: none;
+}
+
+.result-title {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 11px;
+    margin-bottom: 3px;
+}
+
+.result-subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    color: #777777;
 }
 
 .portal {

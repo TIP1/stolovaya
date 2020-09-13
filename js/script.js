@@ -44,6 +44,11 @@ var swiper = new Swiper('.swiper-container', {
 $('#post-link').click(function(e){
   e.preventDefault();
 })
+
+$('#phone-btn-popup').click(function(e){
+  e.preventDefault();
+})
+
 let letMeHide = true;
 let longmenushow = false;
 let shortmenushow = false;
@@ -53,7 +58,9 @@ var firstEquipmentVisual = false;
 var secondEquipmentVisual = false;
 var otherMenu = $('.hidemenu');
 var otherMenuSecond = $('.hidemenu_second');
-var darknestBlock = $('.shadowBackground')
+var darknestBlock = $('.shadowBackground');
+var resulSearchPopup = $('.header-search-resultPopup');
+var HideResulSearch = true;
 $('#first-equipment-link').click(function(){
   if (!firstEquipmentVisual) {
     firstEquipment.fadeIn(200);
@@ -232,8 +239,14 @@ let hidePhonePopup = true;
 
 $('#phone-btn-popup').on('click', function(){
   if(hidePhonePopup) {
-    $('.header-wrap-second').css('z-index','-11111')
+    // setTimeout(function(){
+    //   $('.header-search-eq').css('z-index','-11111')
+    // }, 13)
+    // setTimeout(function(){
+    //   $('.header-wrap-second').css('z-index','-11110')
+    // }, 15)
     $('.header-search-eq').css('z-index','-11111')
+    $('.header-wrap-second').css('z-index','-11110')
     letMeHide = false;
     $('#phone-btn-popup').css('background','#5cb774')
     darknestBlock.fadeIn(250);
@@ -258,4 +271,24 @@ $('#phone-btn-popup').on('click', function(){
   }
 })
 
+$('.popup-closebtn div').on('click', function() {
+    darknestBlock.fadeOut(200);
+    letMeHide = true;
+    $('#phone-btn-popup').css('background','#34a853')
+    $('.words-tel-popup').fadeOut(200);
+    hidePhonePopup = !hidePhonePopup
+    setTimeout(function(){$('.header-wrap-second').css('z-index','0')}, 220)
+    setTimeout(function(){$('.header-search-eq').css('z-index','-1')}, 220)
+})
 
+$('.header-search-input input').focus(function(){
+    $('.header-search-eq').css('z-index','-11111')
+    resulSearchPopup.fadeIn(200);
+    darknestBlock.fadeIn(200);
+})
+
+$('.header-search-input input').blur(function(){
+  $('.header-search-eq').css('z-index','-1')
+  resulSearchPopup.fadeOut(200);
+  darknestBlock.fadeOut(200);
+})
