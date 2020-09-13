@@ -71,7 +71,7 @@ a, span {
 
 .header-wrap-second {
     background: #e7e6e6;
-    
+    position: relative;
 }
 
 .container {
@@ -169,14 +169,19 @@ a, span {
     border-radius: 22.5px;
     padding: 16px 37px;
     line-height: 16px;
-    right: 330px;
+    right: 361px;
+}
+
+#phone-btn-popup {
+    padding-left: 17px;
+    padding-right: 19px;
 }
 
 .words-tel-popup {
-    display: flex;
+    display: none;
     position: absolute;
-    top: 40px;
-    right: 100px;
+    top: 48px;
+    right: 188px;
     background: #ffffff;
     z-index: 20;
 }

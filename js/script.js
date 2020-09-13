@@ -138,6 +138,14 @@ $('#SecondMenu').click(function() {
 })
 
 darknestBlock.click(function(){
+    if(!hidePhonePopup) {
+      hidePhonePopup = !hidePhonePopup
+      darknestBlock.fadeOut(150); 
+      setTimeout(function(){$('.header-wrap-second').css('z-index','0')}, 220)
+      setTimeout(function(){$('.header-search-eq').css('z-index','-1')}, 220)
+      $('.words-tel-popup').fadeOut(200)
+      $('#phone-btn-popup').css('background','#34a853')
+    }
     firstEquipmentVisual = false;
     secondEquipmentVisual = false;
     longmenushow = false;
@@ -220,5 +228,34 @@ function copyEmail() {
   navigator.clipboard.writeText(document.getElementById('e-mail-addres').innerHTML)
 }
 
+let hidePhonePopup = true;
+
+$('#phone-btn-popup').on('click', function(){
+  if(hidePhonePopup) {
+    $('.header-wrap-second').css('z-index','-11111')
+    $('.header-search-eq').css('z-index','-11111')
+    letMeHide = false;
+    $('#phone-btn-popup').css('background','#5cb774')
+    darknestBlock.fadeIn(250);
+    $('.words-tel-popup').fadeIn(300);
+    hidePhonePopup = !hidePhonePopup
+    otherMenuSecond.fadeOut(10)
+    secondEquipment.fadeOut(10)
+    otherMenu.fadeOut(10);
+    firstEquipment.fadeOut(10);
+    firstEquipmentVisual = false;
+    secondEquipmentVisual = false;
+    longmenushow = false;
+    shortmenushow = false;
+} else {
+    darknestBlock.fadeOut(200);
+    letMeHide = true;
+    $('#phone-btn-popup').css('background','#34a853')
+    $('.words-tel-popup').fadeOut(200);
+    hidePhonePopup = !hidePhonePopup
+    setTimeout(function(){$('.header-wrap-second').css('z-index','0')}, 220)
+    setTimeout(function(){$('.header-search-eq').css('z-index','-1')}, 220)
+  }
+})
 
 
