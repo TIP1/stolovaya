@@ -1525,12 +1525,13 @@ html:root {
 
 .cards-firstline {
     display: flex;
+    margin-bottom: 0.625rem;
 }
 
 .cards-firstline a:first-child {
     display: flex;
     width: 55.57%;
-    margin: 0 0.625rem 0.625rem 0;
+    margin: 0 0.625rem 0 0;
 }
 
 .cards-firstline-big {
@@ -1583,7 +1584,7 @@ html:root {
 .cards-firstline-small {
     background: #ffffff;
     width: 100%;
-    padding-bottom: 2.0625rem;
+    height: 100%;
 }
 
 .cards-firstline-small img {
