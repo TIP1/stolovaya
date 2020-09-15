@@ -1,0 +1,241 @@
+/* * {
+    transition: all 0.5s;
+} */
+
+@media (max-width: 103.75rem) { /*1660px*/
+    html {
+        font-size: 14px;
+    }
+
+    .header-search-logo img {
+        height: 34.528px;
+        width: 34.528px;
+    }
+
+    .portal img {
+        height: 30.26px;
+        width: 30.26px;
+    }
+
+    .header-search-btn img {
+        width: 18.094px;
+    }
+
+    .store-left img {
+        width: 25.06px;
+    }
+
+    .popup-left ul li:before {
+        width: 23px;
+    }
+}
+
+@media (max-width: 91.25rem) { /*1460*/
+    html {
+        font-size: 12px;
+    }
+
+    .header-search-logo img {
+        height: 30.41px;
+        width: 30.41px;
+    }
+
+    .portal img {
+        height: 26.61px;
+        width: 26.61px;
+        position: relative;
+        top: 1px;
+    }
+
+    .header-search-btn img {
+        width: 15.96px;
+    }
+
+    .store-left img {
+        width: 22.05px;
+        height: 20.53px;
+    }
+
+    .popup-left ul li:nth-child(2):before,
+    .popup-left ul li:nth-child(3):before,
+    .popup-left ul li:nth-child(4):before,
+    .popup-left ul li:nth-child(5):before {
+        width: 22.53px;
+        height: 22.53px;
+        background-size: 20.53px 20.53px;
+    }
+
+    .header-search-eq .container a img {
+        width: 43.34px;
+    }
+
+    .equipment-long-menu-last img {
+        width: 153.604px;
+    }
+
+    .equipment-long-menu-second ul:last-child li:before,
+    .equipment-long-menu-second ul:last-child li:nth-child(3):before,
+    .equipment-long-menu-second ul:last-child li:nth-child(4):before,
+    .equipment-long-menu-second ul:last-child li:nth-child(5):before {
+        background-size: 16.72px 16.72px;
+        position: relative;
+        top: -2px;
+    }
+
+    .equipment-short-menu-last img {
+        width: 233.44px;
+    }
+
+    .equipment-short-menu-second ul:last-child li:before,
+    .equipment-short-menu-second ul:last-child li:nth-child(3):before, 
+    .equipment-short-menu-second ul:last-child li:nth-child(4):before,
+    .equipment-short-menu-second ul:last-child li:nth-child(5):before {
+        width: 16.72px;
+        background-size: 16.72px 16.72px;
+        position: relative;
+        top: -1px;
+    }
+
+    .swiper-img img {
+        width: 194.66px;
+    }
+
+    .sale-content img {
+        width: 53.22px;
+    }
+
+    .main-swiper .swiper-container {
+        height: 100%;
+    }
+
+    .partners li:nth-child(1) img {
+        width: 110.26px;
+    }
+
+    .partners li:nth-child(2) img {
+        width: 102.65px;
+    }
+
+    .partners li:nth-child(3) img {
+        width: 99.614px;
+    }
+
+    .partners li:nth-child(4) img {
+        width: 101.9px;
+    }
+
+    .partners li:nth-child(5) img {
+        width: 111.02px;
+    }
+
+    .services-product {
+        width: 97.33px;
+    }
+
+    .services-flag {
+        width: 12.92px;
+    }
+
+    .services-corp {
+        width: 59.31px;
+    }
+
+    .services-slider .swiper-slide img {
+        height: 100%;
+    }
+
+    .news-main img {
+        width: 371.84px;
+    }
+
+    .news-list img {
+        width: 144.479px;
+    }
+
+    .cards-firstline-big img {
+        width: 205.31px;
+    }
+
+    .cards-firstline a:nth-child(2) img {
+        width: 76.8px;
+    }
+
+    .cards-firstline a:nth-child(3) img {
+        width: 73.76px;
+    }
+}
+
+@media (max-width: 80rem) { /*1280*/
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 62rem) { /*992*/
+    html {
+        font-size: 8px;
+    }
+}
+
+/* -----------ЕСЛИ ИЗМЕНИТЬ РАЗМЕР КАРТИНОК ДЛЯ КАЖДОГО РАЗРЕШЕНИЯ ПОДХОДЯЩИЕ -----
+-------------------------------ТО ВСЕ БУДЕТ ОК ---------------------------------- */
+
+
+/*
+@media (max-width: 47.9375rem) {
+    .header-search-eq, .header-wrap-second, .header-wrap {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+
+    .mobile-nav-wrap {
+        display: flex;
+    }
+
+    .mobile-nav-burger {
+        width: 4.5625rem;
+        height: 4.5625rem;
+        border-radius: 50%;
+        cursor: pointer;
+        background: #fda11c;
+        text-align: center;
+    }
+
+    .mobile-nav-burger img {
+        position: relative;
+        top: 1.5625rem;
+    }
+
+    .mobile-nav-logo {
+        display: flex;
+        margin-left: 1.9375rem;
+        position: relative;
+        top: 0.625rem;
+    }
+
+    .mobile-nav-logo p:first-child {
+        font-size: 1.875rem;
+        color: #353535;
+    }
+
+    .mobile-nav-logo p:last-child {
+        font-size: 1.125rem;
+        color: #777777;
+        font-weight: 300;
+        line-height: 0.75rem;
+    }
+
+    .mobile-nav-logo img{
+        height: 3.4375rem;
+        display: flex;
+    }
+
+    .mobile-nav-words {
+        position: relative;
+        top: 0.125rem;
+        margin-left: 0.6875rem;
+    }
+} */ 

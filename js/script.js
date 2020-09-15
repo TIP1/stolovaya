@@ -292,3 +292,14 @@ $('.header-search-input input').blur(function(){
   resulSearchPopup.fadeOut(200);
   darknestBlock.fadeOut(200);
 })
+
+
+// function to1660(source){
+// ... let procent = source/19.2;
+// ... console.log((procent/100)*1660 + ' for 1660!')
+// ... } 
+
+// function to1460(source){
+// ... let procent = source/19.2;
+// ... console.log((procent/100)*1460 + ' for 1460!')
+// ... } 
