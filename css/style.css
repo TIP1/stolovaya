@@ -1354,6 +1354,8 @@ html:root {
 .services-slider .swiper-slide img {
     position: absolute;
     z-index: -1;
+    height: 27rem;
+    width: 28.5625rem;
 }
 
 .services-slider .swiper-subtitle {
