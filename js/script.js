@@ -245,6 +245,10 @@ $('#phone-btn-popup').on('click', function(){
     // setTimeout(function(){
     //   $('.header-wrap-second').css('z-index','-11110')
     // }, 15)
+    catigories.hide(200);
+    if (visibility) {
+      visibility = false;
+    }
     $('.header-search-eq').css('z-index','-11111')
     $('.header-wrap-second').css('z-index','-11110')
     letMeHide = false;

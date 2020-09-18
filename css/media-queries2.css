@@ -163,6 +163,107 @@
     .cards-firstline a:nth-child(3) img {
         width: 73.76px;
     }
+
+    .cards-secondline-long-wrap img {
+        width: 323.94px;
+    }
+
+    .cards-secondline-short1 img {
+        width: 294.281px;
+    }
+
+    .cards-secondline-short2 {
+        height: 239.52px;
+    }
+
+    .cards-secondline-short2 img {
+        width: 294.281px;
+    }
+
+    .offers-right img {
+        width: 114.823px;
+    }
+
+    .ourclients-line a:first-child img {
+        width: 98.09px;
+    }
+
+    .ourclients-line a:nth-child(2) img {
+        width: 114.82px;
+    }
+
+    .ourclients-line a:nth-child(3) img {
+        width: 61.59px;
+    }
+
+    .ourclients-line a:nth-child(4) img {
+        width: 56.27px;
+    }
+
+    .ourclients-line a:nth-child(5) img {
+        width: 65.39px;
+    }
+
+    .ourclients-line a:nth-child(6) img {
+        width: 58.55px;
+    }
+
+    .ourclients-line2 a:nth-child(1) img {
+        width: 79.08px;
+    }
+
+    .ourclients-line2 a:nth-child(2) img {
+        width: 66.15px;
+    }
+
+    .ourclients-line2 a:nth-child(3) img {
+        width: 22.81px;
+    }
+
+    .ourclients-line2 a:nth-child(4) img {
+        width: 107.21px;
+    }
+
+    .ourclients-line2 a:nth-child(5) img {
+        width: 116.34px;
+    }
+
+    .ourclients-line2 a:nth-child(6) img {
+        width: 73px;
+    }
+
+    .ourclients-line3 a:nth-child(1) img {
+        width: 149.8px;
+    }
+
+    .ourclients-line3 a:nth-child(2) img {
+        width: 64.63px;
+    }
+
+    .ourclients-line3 a:nth-child(3) img {
+        width: 63.87px;
+    }
+
+    .ourclients-line3 a:nth-child(4) img {
+        width: 95.05px;
+    }
+
+    .ourclients-line3 a:nth-child(5) img {
+        width: 103.41px;
+    }
+
+    .ourclients-line3 a:nth-child(6) img {
+        width: 141.43px;
+    }
+
+    .companylogo img {
+        width: 30.41px;
+    }
+
+    .services .swiper-slide {
+        width: 326px;
+        height: 326px;
+    }
 }
 
 @media (max-width: 80rem) { /*1280*/
