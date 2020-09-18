@@ -44,99 +44,101 @@
         <div class="header-wrap">
             <div class="container">
                 <nav class="menu">
-                    <ul class="menu__words">
-                        <li>
-                            <a href="#">Компания</a>
-                        </li>
-                        <li>
-                            <a href="#">Портфолио</a>
-                        </li>
-                        <li>
-                            <a href="#">Проектирование</a>
-                        </li>
-                    </ul>
-                    <ul class="menu__words">
-                        <li>
-                            <a href="#">Ресторанам</a>
-                        </li>
-                        <li>
-                            <a href="#">Застройщикам</a>
-                        </li>
-                        <li>
-                            <a href="#">Гос.заказчикам</a>
-                        </li>
-                        <li>
-                            <a href="#">Таблет-питание</a>
-                        </li>
-                    </ul>
-                    <ul class="menu__words">
-                        <li>
-                            <a href="#">Сервис</a>
-                        </li>
-                        <li>
-                            <a href="#">Контакты</a>
-                        </li>
-                        <li id="e-mail" class="">
-                            <a href="#" id="post-link">
-                                <div>
-                                    <div class="img1">
-                                        <img src="./img/email.png" alt="email">
+                    <div class="menu-list">
+                        <ul class="menu__words">
+                            <li>
+                                <a href="#">Компания</a>
+                            </li>
+                            <li>
+                                <a href="#">Портфолио</a>
+                            </li>
+                            <li>
+                                <a href="#">Проектирование</a>
+                            </li>
+                        </ul>
+                        <ul class="menu__words">
+                            <li>
+                                <a href="#">Ресторанам</a>
+                            </li>
+                            <li>
+                                <a href="#">Застройщикам</a>
+                            </li>
+                            <li>
+                                <a href="#">Гос.заказчикам</a>
+                            </li>
+                            <li>
+                                <a href="#">Таблет-питание</a>
+                            </li>
+                        </ul>
+                        <ul class="menu__words">
+                            <li>
+                                <a href="#">Сервис</a>
+                            </li>
+                            <li>
+                                <a href="#">Контакты</a>
+                            </li>
+                            <li id="e-mail" class="">
+                                <a href="#" id="post-link">
+                                    <div>
+                                        <div class="img1">
+                                            <img src="./img/email.png" alt="email">
+                                        </div>
+                                        <span id="e-mail-addres">info@stolovay.ru</span>
                                     </div>
-                                    <span id="e-mail-addres">info@stolovay.ru</span>
+                                </a>
+                                <a href="#" class="e-mail-copy" onclick="copyEmail()">Скопировать</a>
+                            </li>
+                            <li id="phone-btn-popup">
+                                <a href="#">
+                                    <div>
+                                        <div class="img2">
+                                            <img src="./img/telephone.png" alt="phone">
+                                        </div>
+                                        <span>8 495 790-72-05</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="words-tel-popup">
+                        <div class="popup-wrap">
+                            <div class="popup-closebtn">
+                                <div class=""></div>
+                            </div>
+                            <div class="popup-blocks-wrap">
+                                <div class="popup-left">
+                                    <p class="popup-left-number">
+                                        8 495 790-72-05
+                                    </p>
+                                    <p class="popup-subtext">
+                                        Мы принимаем звонки без выходных.
+                                    </p>
+                                    <ul>
+                                        <p>Выберите способ связи:</p>
+                                        <li>Мобильный</li>
+                                        <li>Viber</li>
+                                        <li>Telegram</li>
+                                        <li>Whatsapp</li>
+                                    </ul>
                                 </div>
-                            </a>
-                            <a href="#" class="e-mail-copy" onclick="copyEmail()">Скопировать</a>
-                        </li>
-                        <li id="phone-btn-popup">
-                            <a href="#">
-                                <div>
-                                    <div class="img2">
-                                        <img src="./img/telephone.png" alt="phone">
-                                    </div>
-                                    <span>8 495 790-72-05</span>
-                                </div>
-                            </a>
-                        </li>
-                        <div class="words-tel-popup">
-                            <div class="popup-wrap">
-                                <div class="popup-closebtn">
-                                    <div class=""></div>
-                                </div>
-                                <div class="popup-blocks-wrap">
-                                    <div class="popup-left">
-                                        <p class="popup-left-number">
-                                            8 495 790-72-05
-                                        </p>
-                                        <p class="popup-subtext">
-                                            Мы принимаем звонки без выходных.
-                                        </p>
-                                        <ul>
-                                            <p>Выберите способ связи:</p>
-                                            <li>Мобильный</li>
-                                            <li>Viber</li>
-                                            <li>Telegram</li>
-                                            <li>Whatsapp</li>
-                                        </ul>
-                                    </div>
-                                    <div class="popup-rigth">
-                                        <p class="popup-rigth-title">
-                                            Обратный звонок:
-                                        </p>
-                                        <p class="popup-subtext">
-                                            Мы перезвоним вам в течении часа
-                                        </p>
-                                        <form action="POST">
-                                            <p class="popup-name-p">Имя:</p>
-                                            <input type="text">
-                                            <p class="popup-telephone-p">Телефон:</p>
-                                            <input type="text">
-                                            <button type="submit">Отправить</button>
-                                        </form>
-                                    </div>
+                                <div class="popup-rigth">
+                                    <p class="popup-rigth-title">
+                                        Обратный звонок:
+                                    </p>
+                                    <p class="popup-subtext">
+                                        Мы перезвоним вам в течении часа
+                                    </p>
+                                    <form action="POST">
+                                        <p class="popup-name-p">Имя:</p>
+                                        <input type="text">
+                                        <p class="popup-telephone-p">Телефон:</p>
+                                        <input type="text">
+                                        <button type="submit">Отправить</button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
-                    </ul>
+                    </div>
                 </nav>
             </div>
         </div>

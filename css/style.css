@@ -80,6 +80,10 @@ a, span {
 }
 
 .menu {
+    position: relative;
+}
+
+.menu-list {
     display: flex;
 }
 
@@ -180,8 +184,7 @@ a, span {
 .words-tel-popup {
     display: none;
     position: absolute;
-    top: 3rem;
-    right: 11.75rem;
+    right: 0;
     background: #ffffff;
     z-index: 20;
 }
