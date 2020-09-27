@@ -1116,6 +1116,10 @@ a, span {
 
   }
 
+.pagination-arrow {
+    display: none;
+}
+  
 .swiper-pagination {
     position: relative !important;
     bottom: 2.9375rem !important;

@@ -1135,6 +1135,36 @@
         width: 273px;
         height: 386px;
     }
+
+    .pagination-arrow {
+        display: block;
+    }
+
+    .swiper-button-next:after, .swiper-button-prev:after {
+        font-size: 26px !important;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        top: 90.55% !important;
+    }
+
+    .swiper-button-next {
+        right: 30px !important;
+    }
+
+    .swiper-button-prev {
+        left: 28px !important;
+    }
+
+    .swiper-pagination-bullet {
+        margin: 0 20px 0 0 !important;
+        width: 14px !important;
+        height: 14px !important;
+    }
+
+    .swiper-pagination {
+        bottom: 60px !important;
+    }
 /*-----------*/
 .main .container, .news .container, .recomend .container, .offers .container, .ourclients .container {
     overflow: hidden;
