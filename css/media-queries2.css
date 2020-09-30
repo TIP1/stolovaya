@@ -1305,6 +1305,84 @@
         float: right;
     }
 
+    .services .container {
+        display: block;
+    }
+
+    .services-special {
+        width: 91.9%;
+        margin: 0 auto;
+    }
+
+    .services-products {
+        display: block;
+    }
+
+    .services-products a {
+        width: 100%;
+        display: flex;
+        text-align: start;
+        padding: 3.3125rem 0 26px 0;
+    }
+
+    .services-products a:nth-child(2) {
+        border: none;
+        border-top: 2px solid #e8e8e8;
+        border-bottom: 2px solid #e8e8e8;
+    }
+
+    .services-products a div:first-child {
+        padding-left: 34px;
+        padding-top: 4px;
+        padding-right: 64px;
+    }
+
+    .services-products a div:last-child {
+        position: relative;
+        top: -11px;
+    }
+
+    .services-flag {
+        width: 48px;
+        height: 30px;
+        margin: 0;
+        margin-left: 3px;
+        margin-bottom: 27px;
+    }
+
+    .services-products-name {
+        font-size: 30px;
+        width: 90%;
+        margin-bottom: 22px;
+    }
+
+    .services-products-price {
+        font-size: 30px;
+    }
+
+    .services-corp {
+        width: 129px;
+        margin-top: 22px;
+        position: relative;
+        left: -6px;
+    }
+
+    .services-title {
+        padding: 22px 0 22px 31px;
+    }
+
+    .services-title a {
+        font-size: 40px;
+    }
+
+    .services {
+        margin-top: 29px;
+    }
+
+    .services-product {
+        width: 269px;
+    }
+
 
 /*-----------*/
 .main .container, .news .container, .recomend .container, .offers .container, .ourclients .container {

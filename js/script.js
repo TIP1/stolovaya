@@ -301,6 +301,15 @@ $('.header-search-input input').blur(function(){
   darknestBlock.fadeOut(200);
 })
 
+$(window).on('load resize', function(){
+  if($(window).width() <= 767) {
+    $('.services-product').attr('src', './img/steammachineMOBILE.png')
+    $('.services-corp').attr('src', './img/rationalMOB.png')
+  } else {
+    $('.services-product').attr('src', './img/steammachine.png')
+    $('.services-corp').attr('src', './img/smallabat.png')
+  }
+})
 
 // function to1660(source){
 // ... let procent = source/19.2;
