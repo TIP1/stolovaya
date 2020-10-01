@@ -1387,6 +1387,7 @@
         width: 100%;
         height: 556px;
         margin: 0;
+        margin-top: 31px;
     }
 
     .swiper-container {
@@ -1402,7 +1403,7 @@
         width: 100%;
     }
     
-    .swiper-title {
+    .services-slider .swiper-title {
         font-size: 50px;
         margin-bottom: 14px;
     }
