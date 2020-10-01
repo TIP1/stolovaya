@@ -305,9 +305,11 @@ $(window).on('load resize', function(){
   if($(window).width() <= 767) {
     $('.services-product').attr('src', './img/steammachineMOBILE.png')
     $('.services-corp').attr('src', './img/rationalMOB.png')
+    $('.services .swiper-slide img').attr('src', './img/slidermobile.png')
   } else {
     $('.services-product').attr('src', './img/steammachine.png')
     $('.services-corp').attr('src', './img/smallabat.png')
+    $('.services .swiper-slide img').attr('src', './img/serviceslide.jpg')
   }
 })
 
