@@ -313,6 +313,8 @@ $(window).on('load resize', function(){
   }
 })
 
+
+
 // function to1660(source){
 // ... let procent = source/19.2;
 // ... console.log((procent/100)*1660 + ' for 1660!')

@@ -1532,6 +1532,18 @@ html:root {
     font-weight: 300;
 }
 
+.cards-mobile-second-item {
+    display: none;
+}
+
+.cards-computer-child {
+    display: block;
+}
+
+.cards-firstline--second {
+    display: none;
+}
+
 .cards-firstline {
     display: flex;
     margin-bottom: 0.625rem;
@@ -1619,7 +1631,7 @@ html:root {
     top: -0.375rem;
 }
 
-.cards-firstline a:last-child {
+.cards-firstline a:nth-child(3) {
     width: 20.65%;
     margin-left: 0.625rem;
 }

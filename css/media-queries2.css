@@ -1428,6 +1428,175 @@
         top: -20px;
     }
 
+    .news {
+        display: none;
+    }
+
+    .cards-firstline {
+        display: block;
+    }
+
+    .cards-secondline {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cards-firstline a:first-child {
+        margin: 0;
+        width: 100%;
+        height: 483px;
+    }
+
+    .recomend-cards {        
+        width: 92.4%;
+        margin: 0 auto;
+    }
+
+    .cards-firstline-small {
+        display: flex;
+        height: 483px;
+    }
+
+    .cards-firstline-small img {
+        order: 2;
+    }
+
+    .cards-words {
+        order: 1;
+    }
+
+    .cards-secondline {
+        display: none;
+    }
+
+    .cards-firstline--second {
+        display: block;
+    }
+
+    .cards-firstline--second a:first-child {
+        margin: 0;
+        width: 100%;
+    }
+    .cards-firstline--second a:first-child div{
+        height: 483px;
+    }
+
+    .cards-firstline-small .cards-words {
+        text-align: left;
+    }
+
+    .recomend {
+        margin-top: 132px;
+    }
+    
+    .recomend-title {
+        width: 89%;
+    }
+
+    .recomend-title-main {
+        font-size: 50px;
+    }
+
+    .recomend-title-sub {
+        font-size: 30px;
+        margin-bottom: 54px;
+    }
+
+     .cards-firstline-big img {
+        width: 221px;
+        height: 440px;
+        padding-top: 43px;
+    }   
+    
+    .cards-brand {
+        font-size: 30px;
+        margin-bottom: 12px;
+    }
+
+    .cards-type {
+        font-size: 40px;
+        margin-bottom: 44px;
+    }
+
+    .cards-description {
+        font-size: 25px;
+    }
+
+    .cards-computer-child {
+        display: none;
+    }
+
+    .cards-mobile-second-item {
+        display: block;
+    }
+
+    .cards-firstline-big .cards-words {
+        width: 46.91%;
+        margin: 111px 0 0 60px;
+    }
+
+    .cards-firstline a:nth-child(2) img,
+    .cards-firstline--second a:nth-child(2) img {
+        width: 170px;
+        height: 406px;
+        padding: 0;
+        margin: 0;
+        margin-top: 38px;
+        margin-left: 69px;
+    }
+
+    .cards-firstline-small .cards-words {
+        width: 50%;
+        margin-top: 134px;
+        margin-left: 70px;
+    }
+
+    .cards-firstline-small {
+        margin-top: 4px;
+        margin-bottom: 10px;
+    }
+
+    .cards-firstline a:last-child img,
+    .cards-firstline--second .cards-mobile-second-item img {
+        padding-top: 16px;
+        left: -29px;
+        position: relative;
+    }
+
+    .cards-mobile-second-item .cards-words {
+        margin-top: 111px;
+        margin-left: 67px;
+    }
+
+    .cards-mobile-second-item .cards-words .cards-type {
+        top: 0;
+        margin-bottom: 50px;
+    }
+
+    .cards-firstline--second .cards-firstline-big {
+        margin-bottom: 10px;
+    }
+
+    .cards-firstline--second .cards-firstline-big img {
+        width: 228px;
+        height: 395px;
+        padding-top: 55px;
+    }
+
+    .cards-firstline--second .cards-firstline-big .cards-words {
+        width: 55.91%;
+        margin: 67px 0 0 48px;
+    }
+
+    .cards-firstline--second .cards-firstline-big .cards-brand {
+        margin-bottom: 22px;
+    }
+
+    .cards-firstline--second .cards-firstline-big .cards-type {
+        margin-bottom: 53px;
+    }
+
+
 /*-----------*/
 .main .container, .news .container, .recomend .container, .offers .container, .ourclients .container {
     overflow: hidden;
