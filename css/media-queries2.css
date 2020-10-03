@@ -1596,6 +1596,65 @@
         margin-bottom: 53px;
     }
 
+    .offers {
+        margin-top: 140px;
+    }
+
+    .offers .container {
+        flex-direction: column;
+        padding-top: 80px;
+    }
+
+    .offers-left {
+        order: 2;
+        margin-left: 28px;
+        margin-top: 50px;
+        width: 90.7%;
+    }
+
+    .offers-right {
+        margin: 0;
+        position: relative;
+        top: -79px;
+        left: 85px;
+    }
+
+    .offers-right img {
+        width: 249px;
+        margin-bottom: 65px;
+    }
+
+    .offers-right .offers-title {
+        font-size: 50px;
+        margin-bottom: 7px;
+    }
+
+    .undertitle {
+        font-size: 25px;
+        margin-bottom: 55px;
+    }
+
+    .info-title {
+        font-size: 40px;
+    }
+
+    .underinfotitle {
+        margin-bottom: 33px;
+    }
+
+    .underinfotitle, .offers-text {
+        font-size: 30px;
+    }
+
+    .offers-left .offers-title {
+        font-size: 50px;
+        margin-bottom: 47px;
+    }
+
+    #hidetextoffers {
+        display: none;
+    }
+   
 
 /*-----------*/
 .main .container, .news .container, .recomend .container, .offers .container, .ourclients .container {
