@@ -1728,6 +1728,10 @@ html:root {
 
 /* offers section */
 
+#textformobile {
+    display: none;
+}
+
 .offers {
     margin-top: 13.75rem;
 }
