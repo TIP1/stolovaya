@@ -1791,6 +1791,11 @@
         margin: 0 auto;
     }
 
+    .ourclients-line2,
+    .ourclients-line3 {
+        display: none;
+    }
+
 /*-----------*/
 .main .container, .news .container, .recomend .container, .offers .container, .ourclients .container {
     overflow: hidden;
