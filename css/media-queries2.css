@@ -1796,6 +1796,112 @@
         display: none;
     }
 
+    .ShowMoreClients {
+        display: block;
+        text-align: center;
+    }
+
+    .ShowMoreClients .offers-btn {
+        margin: 0px auto 7px auto;
+    }
+
+    .ShowMoreClients p {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .push-area {
+        width: 30%;
+        margin: 84px auto 0 auto;
+        cursor: pointer;
+    }
+
+    .contacts .container {
+        display: block;
+        padding-top: 76px;
+        margin-top: 142px;
+        padding-bottom: 38px;
+    }
+
+    .contacts .contacts-list ul {
+        display: none;
+    }
+
+    .contacts-info-content {
+        display: none;
+    }
+
+    .contacts-requisites {
+        display: block;
+    }
+    
+    .contacts-title,
+    .contacts-info .contacts-title {
+        font-size: 30px;
+        color: #ffffff;
+        margin: 0;
+        padding-left: 3px;
+    }
+
+    .contacts-lists {
+        display: block;
+        width: 87.6%;
+        margin: 0 auto;
+    }
+
+    .contacts-lists li {
+        padding: 29px 0;
+        border-bottom: 1px solid #4b4b4b;
+    }
+
+    .contacts-lists li:first-child {
+        padding-top: 0;
+    }
+
+    .contacts-lists li:last-child {
+        border: none;
+    }
+
+    .contacts-lists li p:after {
+        content:'+';
+        float: right;
+        padding-right: 6px;
+        cursor: pointer;
+    }
+
+    footer .container {
+        display: block;
+        width: 87%;
+        padding-bottom: 25px;
+    }
+
+    .companylogo {
+        margin-bottom: 34px;
+    }
+
+    .companylogo img {
+        width: 88px;
+    }
+
+    .companylogo-text p:first-child {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 8px;
+    }
+
+    .companylogo-text p:last-child {
+        font-size: 30px;
+    }
+
+    .companylogo-text {
+        margin-left: 24px;
+        margin-top: 7px;
+    }
+
+    .createdby p {
+        font-size: 40px;
+    }
+
 /*-----------*/
 .main .container, .news .container, .recomend .container, .offers .container, .ourclients .container {
     overflow: hidden;

@@ -1961,6 +1961,11 @@ html:root {
     margin-top: 0.1875rem;
 }
 
+.ShowMoreClients {
+    display: none;
+}
+
+
 /* contacts */
 
 .contacts {
@@ -2010,6 +2015,20 @@ html:root {
 
 .contacts-info p:nth-child(9) {
     margin-top: 1.1875rem;
+}
+
+.contacts-info-content {
+    display: block;
+}
+
+.contacts-requisites {
+    display: none;
+}
+
+.contacts-lists {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* footer */
