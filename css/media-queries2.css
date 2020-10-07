@@ -1656,9 +1656,9 @@
         margin-bottom: 2.9375rem;
     }
 
-    #hidetextoffers {
+    #hidetextoffers, #hidesecondtextoffers {
         display: none;
-    }
+    }    
 
     #textforpc {
         display: none;

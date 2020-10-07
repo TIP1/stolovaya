@@ -313,7 +313,19 @@ $(window).on('load resize', function(){
   }
 })
 
+let ShowTextOffers = false;
 
+$('.offers-btn').on('click', function(){
+  if(!ShowTextOffers) {
+    $('#hidesecondtextoffers').show(400)
+    $('.offers-btn').text('-') 
+    ShowTextOffers = true
+  } else {
+    $('#hidesecondtextoffers').hide(400)
+    $('.offers-btn').text('+') 
+    ShowTextOffers = false
+  }
+})
 
 // function to1660(source){
 // ... let procent = source/19.2;
