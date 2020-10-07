@@ -314,16 +314,29 @@ $(window).on('load resize', function(){
 })
 
 let ShowTextOffers = false;
+let ShowClientsMore = false;
 
-$('.offers-btn').on('click', function(){
+$('.offers .offers-btn').on('click', function(){
   if(!ShowTextOffers) {
     $('#hidesecondtextoffers').show(400)
-    $('.offers-btn').text('-') 
+    $('.offers .offers-btn').text('-') 
     ShowTextOffers = true
   } else {
     $('#hidesecondtextoffers').hide(400)
-    $('.offers-btn').text('+') 
+    $('.offers .offers-btn').text('+') 
     ShowTextOffers = false
+  }
+})
+
+$('.ourclients .offers-btn').on('click', function(){
+  if(!ShowClientsMore) {
+    $('.showClientsMore').show(400)
+    $('.ourclients .offers-btn').text('-') 
+    ShowClientsMore = true
+  } else {
+    $('.showClientsMore').hide(400)
+    $('.ourclients .offers-btn').text('+') 
+    ShowClientsMore = false
   }
 })
 
