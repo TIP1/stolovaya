@@ -340,6 +340,70 @@ $('.ourclients .offers-btn').on('click', function(){
   }
 })
 
+
+// $('#footer-list-1').on('click', function(){
+//   showConentinONE = false;
+//   if(!showConentinONE) {
+//     $('#footer-list-1 ul').show(400)
+//     showConentinONE = true
+//   } else {
+//     $('#footer-list-1 ul').hide(400)
+//     showConentinONE = false
+//   }
+// })
+
+// $('#footer-list-2').on('click', function(){
+//   showConentinONE = false;
+//   if(!showConentinONE) {
+//     $('#footer-list-2 ul').show(400)
+//     showConentinONE = true
+//   } else {
+//     $('#footer-list-2 ul').hide(400)
+//     showConentinONE = false
+//   }
+// })
+
+// $('#footer-list-3').on('click', function(){
+//   showConentinONE = false;
+//   if(!showConentinONE) {
+//     $('#footer-list-3 ul').show(400)
+//     showConentinONE = true
+//   } else {
+//     $('#footer-list-3 ul').hide(400)
+//     showConentinONE = false
+//   }
+// })
+
+// $('#footer-list-4').on('click', function(){
+//   showConentinONE = false;
+//   if(!showConentinONE) {
+//     $('#footer-list-4 ul').show(400)
+//     showConentinONE = true
+//   } else {
+//     $('#footer-list-4 ul').hide(400)
+//     showConentinONE = false
+//   }
+// })
+
+
+$(document).ready(function(){
+    $('.contacts-lists li p').click(function(){
+
+      if ($('.contacts-lists').has(':visible')){
+        $('.contacts-lists li p').not(this).next().has(':visible').each(function(){
+          $(this).slideToggle(300);
+          $(this).prev().toggleClass('active');
+        });
+        $(this).next().slideToggle(300);
+        $(this).toggleClass('active');
+      } else {
+        $(this).next().slideToggle(300);
+        $(this).toggleClass('active');
+      }
+    })
+})
+
+
 // function to1660(source){
 // ... let procent = source/19.2;
 // ... console.log((procent/100)*1660 + ' for 1660!')
